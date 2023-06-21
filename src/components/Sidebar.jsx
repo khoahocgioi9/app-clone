@@ -1,10 +1,11 @@
 /** @format */
 
 import { PieChartOutlined, UserOutlined } from '@ant-design/icons';
-import { DesktopWindowsOutlined } from '@mui/icons-material';
+import { DesktopWindowsOutlined, Home } from '@mui/icons-material';
 import PeopleIcon from '@mui/icons-material/People';
-import { Avatar, Layout, Menu, theme } from 'antd';
+import { Avatar, Layout, Menu, theme, Card } from 'antd';
 import React, { useState } from 'react';
+import CardComponent from './CardComponent';
 
 const { Sider } = Layout;
 
@@ -36,8 +37,38 @@ const Sidebar = () => {
 	const {
 		token: { colorBgContainer, red },
 	} = theme.useToken();
+
+	const mainMenu = [
+		{
+			key: 'item1',
+			label: 'Home',
+			icon: <Home />,
+		},
+	];
 	return (
-		<Sider theme='light' />
+		<Sider
+			theme='light'
+			width={320}
+			style={{
+				margin: 10,
+			}}>
+			<Card>
+				<Menu items={mainMenu} />
+			</Card>
+
+			<CardComponent>
+				<h1>title</h1>
+			</CardComponent>
+			<CardComponent color={'coral'} handleShowAlert={() => alert('hello')}>
+				<h1>title</h1>
+			</CardComponent>
+			<CardComponent>
+				<h1>title</h1>
+			</CardComponent>
+			<CardComponent>
+				<h1>title</h1>
+			</CardComponent>
+		</Sider>
 		// <Layout
 		//   style={{
 		//     minHeight: "100vh",

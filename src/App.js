@@ -51,7 +51,9 @@ const { Sider, Content, Header } = Layout
 function App()
 {
   return (
-    <Layout>
+    <Layout style={{
+      backgroundColor: 'white'
+    }}>
       <Sidebar />
       <Layout>
         <Header />
