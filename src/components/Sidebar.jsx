@@ -8,6 +8,7 @@ import React, { useState } from 'react';
 import CardComponent from './CardComponent';
 import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 import '../App.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 const { Sider } = Layout;
 
@@ -29,18 +30,18 @@ const Sidebar = () => {
 		setLanguage(newLanguage);
 	};
 
+	const navigate = useNavigate();
+
 	const mainMenu = [
 		{
 			key: 'item1',
-			label: 'Home',
+			label: <Link to='/'>Home</Link>,
 			icon: <Home />,
-			to: '/',
 		},
 		{
 			key: 'item2',
-			label: 'Search',
+			label: <Link to='/search'>Search</Link>,
 			icon: <SearchIcon />,
-			to: '/search',
 		},
 	];
 	const tags = ['Tag 1', 'Tag 2', 'Tag 3', 'Tag 4', 'Tag 5', 'Tag 6'];
