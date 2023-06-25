@@ -1,6 +1,10 @@
 import CardComponent from "./CardComponent"
+import Sidebar from './Sidebar'
+import PlayerControllerComponent from './PlayerControllerComponent'
 
 export
 {
-  CardComponent
+  CardComponent,
+  Sidebar,
+  PlayerControllerComponent
 }
