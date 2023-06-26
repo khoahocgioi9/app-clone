@@ -71,7 +71,7 @@ const Sidebar = () => {
             style={{ color: "#000000", fontWeight: "bold" }}
           >
             <BookmarkBorderIcon />
-            Default size card
+            Your Library
           </span>
         }
         extra={
@@ -88,7 +88,7 @@ const Sidebar = () => {
           fontSize: "16px",
         }}
       >
-        <div id="SideScroll" style={{overflow:"auto", height:250}}>
+        <div id="SideScroll" style={{overflow:"auto", height:280}}>
           <CardComponent
             color={"#2B2730"}
             handleShowAlert={() => alert("hello")}
@@ -132,7 +132,7 @@ const Sidebar = () => {
           <Button
             type="primary"
             shape="round"
-            style={{ background: "#000000", marginTop: 20, marginBottom: 20 }}
+            style={{ background: "#000000", marginTop: 40, marginBottom: 10 }}
             onClick={handleLanguageSwitch}
           >
             {language}

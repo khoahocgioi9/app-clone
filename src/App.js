@@ -2,6 +2,7 @@ import { Button, Layout, Space } from "antd";
 import { useState } from "react";
 import "./App.css";
 import Sidebar from "./components/Sidebar";
+import ListComponent from "./components/ListTypeMS-component/ListComponent";
 
 const { Sider, Content, Header } = Layout;
 
@@ -14,9 +15,9 @@ function App() {
       }}
     >
       <Sidebar />
-      <Layout style={{ minHeight: "100vh" }}>
+      <Layout style={{ background: "#FFFFFF"}}>
         <Header
-          style={{ margin: 10, background: "#ffffff" }}
+          style={{ margin: 10, background: "#f5f5f5" }}
           className="rounded justify-end flex space-x-4 "
         >
           
@@ -53,9 +54,9 @@ function App() {
         </Header>
         <Content
           className="m-5"
-          style={{ maxHeight: "calc(100vh - 64px)", overflowY: "auto" }}
+          style={{ maxHeight: "100%", overflowY: "auto" , margin:10}}
         >
-          <h1>Hello world!</h1>
+          <ListComponent style={{}}/>
         </Content>
       </Layout>
     </Layout>
