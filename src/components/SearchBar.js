@@ -18,7 +18,7 @@ function SearchBar({ onSearch, searchVisible }) {
       size="large"
       style={{ width: "150%", display: searchVisible ? "flex" : "none" }}
     >
-      <Input addonBefore={suffix} placeholder="large size" />
+      <Input addonBefore={suffix} placeholder="" />
     </Space.Compact>
   );
 }

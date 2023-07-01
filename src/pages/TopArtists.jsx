@@ -47,7 +47,7 @@ export const TopArtists = () => {
   // const authorId = topListenAudios;
   // const authorItem = authors.find((item2) => item2.key === authorId);
   return (
-    <>             <div className="title h4 mb-3 ">Popular Authors this month</div>
+    <>             <div className="title h4 mb-3 ">Popular Artists this month</div>
     <List style={{ marginBottom: 50 }}>
       <ListTopArtists data={topListenAuthors} />
     </List>
