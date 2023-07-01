@@ -1,51 +1,51 @@
 /** @format */
 
-import React, { useEffect, useState } from 'react';
-import { audios } from '../datas/audios';
-import CategoryComponent from '../components/CategoryComponent';
+import React, { useEffect, useState } from "react";
+import { poster } from "../datas/poster";
+import CategoryComponent from "../components/CategoryComponent";
 
 export const Home = () => {
-	const [topListenAudios, setTopListenAudios] = useState([]);
+  const [topListenAudios, setTopListenAudios] = useState([]);
 
-	useEffect(() => {
-		getTopListensAudios();
-	}, []);
+  useEffect(() => {
+    getTopListensAudios();
+  }, []);
 
-	const getTopListensAudios = () => {
-		const newAudios = [...audios];
-		newAudios.sort((a, b) => b.listens - a.listens);
+  const getTopListensAudios = () => {
+    const newAudios = [...poster];
+    newAudios.sort((a, b) => b.listens - a.listens);
 
-		const items = [];
+    const items = [];
 
-		newAudios.forEach((item) => items.length < 4 && items.push(item));
+    newAudios.forEach((item) => items.length < 4 && items.push(item));
 
-		setTopListenAudios(items);
-	};
+    setTopListenAudios(items);
+  };
 
-	// console.log(topListenAudios);
+  // console.log(topListenAudios);
 
-	return (
-		<div className='italic'>
-			<CategoryComponent
-				url='/top-listens'
-				title={'Top Listen'}
-				data={topListenAudios}
-			/>
-			<CategoryComponent
-				url='/top-listens'
-				title={'Top Listen'}
-				data={topListenAudios}
-			/>
-			<CategoryComponent
-				url='/top-listens'
-				title={'Top Listen'}
-				data={topListenAudios}
-			/>
-			<CategoryComponent
-				url='/top-listens'
-				title={'Top Listen'}
-				data={topListenAudios}
-			/>
-		</div>
-	);
+  return (
+    <div className="italic" style={{ marginBottom: 100 }}>
+      <CategoryComponent
+        url="/top-listens"
+        title={"Top Listen"}
+        data={topListenAudios}
+      />
+      <CategoryComponent
+        url="/top-listens"
+        title={"Top Listen"}
+        data={topListenAudios}
+      />
+      <CategoryComponent
+        url="/top-listens"
+        title={"Top Listen"}
+        data={topListenAudios}
+      />
+      <CategoryComponent
+        url="/top-listens"
+        title={"Top Listen"}
+        data={topListenAudios}
+      />
+    </div>
+  );
 };
