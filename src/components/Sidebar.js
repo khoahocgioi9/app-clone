@@ -46,7 +46,7 @@ const Sidebar = ({ onHome, onSearchClick }) => {
           Home
         </Link>
       ),
-      icon: <Home />,
+      icon: <Home style={{fontSize:30}}/>,
     },
     {
       key: "item2",
@@ -55,7 +55,7 @@ const Sidebar = ({ onHome, onSearchClick }) => {
           Search
         </Link>
       ),
-      icon: <SearchIcon />,
+      icon: <SearchIcon style={{fontSize:30}}/>,
     },
   ];
   const tags = [
