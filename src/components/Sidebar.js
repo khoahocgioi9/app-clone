@@ -38,8 +38,6 @@ const Sidebar = ({ onHome, onSearchClick }) => {
     setLanguage(newLanguage);
   };
 
-
-
   const mainMenu = [
     {
       key: "item1",
@@ -60,7 +58,32 @@ const Sidebar = ({ onHome, onSearchClick }) => {
       icon: <SearchIcon />,
     },
   ];
-  const tags = ["Tag 1", "Tag 2", "Tag 3", "Tag 4", "Tag 5", "Tag 6"];
+  const tags = [
+    {
+      key: "item1",
+      label: <Link to="/truyen">Truyện</Link>,
+    },
+    {
+      key: "item2",
+      label: <Link to="/podcast">Podcast</Link>,
+    },
+    {
+      key: "item3",
+      label: <Link to="/tinh-cam">Tình cảm</Link>,
+    },
+    {
+      key: "item4",
+      label: <Link to="/tu-truyen">Tự truyện</Link>,
+    },
+    {
+      key: "item5",
+      label: <Link to="/chua-lanh">Chữa lành</Link>,
+    },
+    {
+      key: "item5",
+      label: <Link to="/audio">Audio</Link>,
+    },
+  ];
 
   return (
     <Sider
@@ -123,18 +146,30 @@ const Sidebar = ({ onHome, onSearchClick }) => {
             handleShowAlert1={() => alert("hello")}
           >
             <h1 style={{ fontSize: 24 }}>Top Artists of June</h1>
-            <p style={{ fontWeight: 400 }}>
-              See the top 10 artists{" "}
-            </p>
+            <p style={{ fontWeight: 400 }}>See the top 10 artists </p>
           </CardComponent>
         </div>
 
         <footer style={{ marginTop: 40 }}>
           <div>
-            {tags.map((tag, index) => (
+            {/* {tags.map((tag, index) => (
               <a
                 href=""
                 key={index}
+                style={{
+                 color: "#000000",
+                  marginRight: 20,
+                  fontSize: 15,
+                  textAlign: "justify",
+                  display: "inline-block",
+                }} 
+              >
+                {tag}
+              </a>
+            ))} */}
+            {tags.map((item) => (
+              <div
+                key={item.key}
                 style={{
                   color: "#000000",
                   marginRight: 20,
@@ -143,8 +178,8 @@ const Sidebar = ({ onHome, onSearchClick }) => {
                   display: "inline-block",
                 }}
               >
-                {tag}
-              </a>
+                {item.label}
+              </div>
             ))}
           </div>
 

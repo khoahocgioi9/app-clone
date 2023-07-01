@@ -26,7 +26,7 @@ function CardComponent({ children, color, handleShowAlert, handleShowAlert1 }) {
           style={{ color: "#ffffff", marginTop: 15, fontWeight: 500 }}
   
         >
-          <Link to="/bbb">OPEN</Link>
+          <Link to="/top-artists">OPEN</Link>
         </Button>
       )}
     </Card>

@@ -11,13 +11,14 @@ export const Home = () => {
     getTopListensAudios();
   }, []);
 
+
   const getTopListensAudios = () => {
     const newAudios = [...poster];
     newAudios.sort((a, b) => b.listens - a.listens);
 
     const items = [];
 
-    newAudios.forEach((item) => items.length < 4 && items.push(item));
+    newAudios.forEach((item) => items.length < 8 && items.push(item));
 
     setTopListenAudios(items);
   };

@@ -16,7 +16,7 @@ export const poster = [
     "status": "Full",
     "title": "Người Nam Châm, Bí Mật Của Luật Hấp Dẫn",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334062539
   },
   {
@@ -36,7 +36,7 @@ export const poster = [
     "status": "Full",
     "title": "Mắt Biếc",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334062541
   },
   {
@@ -56,7 +56,7 @@ export const poster = [
     "status": "Full",
     "title": "Hạ Đỏ",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334062543
   },
   {
@@ -79,7 +79,7 @@ export const poster = [
     "status": "Full",
     "title": "Muôn Kiếp Nhân Sinh 1",
     "totalChaps": 12,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334062565
   },
   {
@@ -102,7 +102,7 @@ export const poster = [
     "status": "Full",
     "title": "Hiểu Về Trái Tim",
     "totalChaps": 11,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334062627
   },
   {
@@ -122,7 +122,7 @@ export const poster = [
     "status": "Full",
     "title": "Cuộc Cách Mạng Một Cọng Rơm",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334062628
   },
   {
@@ -142,7 +142,7 @@ export const poster = [
     "status": "Full",
     "title": "Vô Thường",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334062630
   },
   {
@@ -162,7 +162,7 @@ export const poster = [
     "status": "Full",
     "title": "Nhà Giả Kim",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334062633
   },
   {
@@ -182,7 +182,7 @@ export const poster = [
     "status": "Full",
     "title": "Ngày Xưa Có Một Chuyện Tình",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681334062808
   },
   {
@@ -202,7 +202,7 @@ export const poster = [
     "status": "Full",
     "title": "Khi Hơi Thở Hóa Thinh Không",
     "totalChaps": 7,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334062809
   },
   {
@@ -242,7 +242,7 @@ export const poster = [
     "status": "Full",
     "title": "Thất Tịch Không Mưa",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334062843
   },
   {
@@ -262,7 +262,7 @@ export const poster = [
     "status": "Full",
     "title": "Tắt Đèn",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334062844
   },
   {
@@ -282,7 +282,7 @@ export const poster = [
     "status": "Full",
     "title": "Cánh Đồng Bất Tận",
     "totalChaps": 13,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334064003
   },
   {
@@ -302,7 +302,7 @@ export const poster = [
     "status": "Full",
     "title": "Lá Nằm Trong Lá",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334064004
   },
   {
@@ -325,7 +325,7 @@ export const poster = [
     "status": "Full",
     "title": "Truyện Kiều",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334064005
   },
   {
@@ -365,7 +365,7 @@ export const poster = [
     "status": "Full",
     "title": "Tiếng Chim Hót Trong Bụi Mận Gai",
     "totalChaps": 15,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334065038
   },
   {
@@ -385,7 +385,7 @@ export const poster = [
     "status": "Full",
     "title": "Bí Mật Tư Duy Triệu Phú",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334065248
   },
   {
@@ -405,7 +405,7 @@ export const poster = [
     "status": "Full",
     "title": "Người Giàu Có Nhất Thành Babylon",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334065250
   },
   {
@@ -425,7 +425,7 @@ export const poster = [
     "status": "Full",
     "title": "13 Nguyên Tắc Nghĩ Giàu Làm Giàu",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334065252
   },
   {
@@ -448,7 +448,7 @@ export const poster = [
     "status": "Full",
     "title": "Cà Phê Cùng Tony",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334065253
   },
   {
@@ -471,7 +471,7 @@ export const poster = [
     "status": "Full",
     "title": "Trên Đường Băng",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334065254
   },
   {
@@ -491,7 +491,7 @@ export const poster = [
     "status": "Full",
     "title": "Tam Quốc Chí Diễn Nghĩa",
     "totalChaps": 121,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334066023
   },
   {
@@ -511,7 +511,7 @@ export const poster = [
     "status": "Full",
     "title": "Sherlock Holmes Toàn Tập",
     "totalChaps": 44,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334066024
   },
   {
@@ -531,7 +531,7 @@ export const poster = [
     "status": "Full",
     "title": "Anh Hùng Bán Than",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681334066025
   },
   {
@@ -551,7 +551,7 @@ export const poster = [
     "status": "Full",
     "title": "Hành Trình Của Linh Hồn",
     "totalChaps": 7,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334066026
   },
   {
@@ -571,7 +571,7 @@ export const poster = [
     "status": "Full",
     "title": "Ám Ảnh Từ Kiếp Trước",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334066028
   },
   {
@@ -591,7 +591,7 @@ export const poster = [
     "status": "Full",
     "title": "Không Diệt Không Sinh Đừng Sợ Hãi",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681334066028
   },
   {
@@ -611,7 +611,7 @@ export const poster = [
     "status": "Full",
     "title": "Hoàng Tử Bé",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334066033
   },
   {
@@ -631,7 +631,7 @@ export const poster = [
     "status": "Full",
     "title": "Sự Tích Đức Phật Thích Ca",
     "totalChaps": 1,
-    "type": "audio",
+    "type": "Truyện",
     "updatedAt": 1681334066034
   },
   {
@@ -651,7 +651,7 @@ export const poster = [
     "status": "Full",
     "title": "Bông Hồng Cài Áo",
     "totalChaps": 1,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334066123
   },
   {
@@ -674,7 +674,7 @@ export const poster = [
     "status": "Full",
     "title": "Phép Lạ Của Sự Tỉnh Thức",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066132
   },
   {
@@ -697,7 +697,7 @@ export const poster = [
     "status": "Full",
     "title": "Đường Xưa Mây Trắng",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066140
   },
   {
@@ -717,7 +717,7 @@ export const poster = [
     "status": "Full",
     "title": "Muôn Kiếp Nhân Sinh 2",
     "totalChaps": 11,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066143
   },
   {
@@ -737,7 +737,7 @@ export const poster = [
     "status": "Full",
     "title": "7 Thói Quen Của Bạn Trẻ Thành Đạt",
     "totalChaps": 13,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334066146
   },
   {
@@ -757,7 +757,7 @@ export const poster = [
     "status": "Full",
     "title": "Hạnh Phúc Cầm Tay",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066147
   },
   {
@@ -780,7 +780,7 @@ export const poster = [
     "status": "Full",
     "title": "Giận",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066149
   },
   {
@@ -800,7 +800,7 @@ export const poster = [
     "status": "Full",
     "title": "Khi Lỗi Thuộc Về Những Vì Sao",
     "totalChaps": 13,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066232
   },
   {
@@ -820,7 +820,7 @@ export const poster = [
     "status": "Full",
     "title": "Mắt Giai Nhân",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066238
   },
   {
@@ -840,7 +840,7 @@ export const poster = [
     "status": "Full",
     "title": "Kiêu Hãnh Và Định Kiến",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681334066240
   },
   {
@@ -860,7 +860,7 @@ export const poster = [
     "status": "Full",
     "title": "Rừng Na Uy",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681334066248
   },
   {
@@ -5087,7 +5087,7 @@ export const poster = [
     "status": "Full",
     "title": "Để Yên Cho Bác Sĩ &quot;Hiền&quot;",
     "totalChaps": 12,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681508506610
   },
   {
@@ -5107,7 +5107,7 @@ export const poster = [
     "status": "Full",
     "title": "Tam Giác Vàng Ma Quỷ",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681508506611
   },
   {
@@ -5127,7 +5127,7 @@ export const poster = [
     "status": "Full",
     "title": "Tâm Buông Bỏ, Đời Bình An",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681508506815
   },
   {
@@ -5147,7 +5147,7 @@ export const poster = [
     "status": "Full",
     "title": "Hồn Về Trong Gió",
     "totalChaps": 1,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681508507296
   },
   {
@@ -5167,7 +5167,7 @@ export const poster = [
     "status": "Full",
     "title": "Vụ Án Ngôi Mộ Cổ Ở Ngoài Thành Bắc Kinh",
     "totalChaps": 3,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681508507297
   },
   {
@@ -5190,7 +5190,7 @@ export const poster = [
     "status": "Full",
     "title": "Đừng Cúi Đầu Mà Khóc , Hãy Ngẩng Đầu Mà Đi",
     "totalChaps": 4,
-    "type": "audio",
+    "type": "tutruyen",
     "updatedAt": 1681508507299
   },
   {
@@ -5290,7 +5290,7 @@ export const poster = [
     "status": "Full",
     "title": "Người Thành Công Làm Gì Vào Buổi Tối?",
     "totalChaps": 1,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681508507309
   },
   {
@@ -5310,7 +5310,7 @@ export const poster = [
     "status": "Full",
     "title": "Cơ Thể Tự Chữa Lành, Nước Ép Cần Tây",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681508507309
   },
   {
@@ -5330,7 +5330,7 @@ export const poster = [
     "status": "Full",
     "title": "Thiền Sư Và Em Bé 5 Tuổi",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681508507397
   },
   {
@@ -5353,7 +5353,7 @@ export const poster = [
     "status": "Full",
     "title": "Ăn Xanh Để Khỏe",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681508507398
   },
   {
@@ -5373,7 +5373,7 @@ export const poster = [
     "status": "Full",
     "title": "Ngày Tâm Ta An, Sóng Gió Sẽ Tan",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "chualanh",
     "updatedAt": 1681508507422
   },
   {
@@ -6873,7 +6873,7 @@ export const poster = [
     "status": "Full",
     "title": "Đàn Hương Hình",
     "totalChaps": 20,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508563218
   },
   {
@@ -6893,7 +6893,7 @@ export const poster = [
     "status": "Full",
     "title": "Nhìn Thấu Lòng Người",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508563219
   },
   {
@@ -6913,7 +6913,7 @@ export const poster = [
     "status": "Full",
     "title": "Con Người Và Vũ Trụ",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508563220
   },
   {
@@ -6933,7 +6933,7 @@ export const poster = [
     "status": "Full",
     "title": "Hành Trình Tự Do Tài Chính",
     "totalChaps": 6,
-    "type": "audio",
+    "type": "Podcast",
     "updatedAt": 1681508563225
   },
   {
@@ -6953,7 +6953,7 @@ export const poster = [
     "status": "Full",
     "title": "Phong Thủy Và Tài Lộc",
     "totalChaps": 8,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508563296
   },
   {
@@ -6973,7 +6973,7 @@ export const poster = [
     "status": "Full",
     "title": "Cổ Học Tinh Hoa",
     "totalChaps": 13,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508563695
   },
   {
@@ -6993,7 +6993,7 @@ export const poster = [
     "status": "Full",
     "title": "Nhạc Êm Dịu Giúp Giảm Căng Thẳng",
     "totalChaps": 1,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508563794
   },
   {
@@ -7013,7 +7013,7 @@ export const poster = [
     "status": "Full",
     "title": "Sống Đẹp Là Sống Đạo",
     "totalChaps": 8,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508564214
   },
   {
@@ -7053,7 +7053,7 @@ export const poster = [
     "status": "Full",
     "title": "Tầm Nhìn Thay Đổi Quốc Gia",
     "totalChaps": 14,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508564215
   },
   {
@@ -7073,7 +7073,7 @@ export const poster = [
     "status": "Full",
     "title": "Để Hôn Nhân Không Phải Là Toilet",
     "totalChaps": 5,
-    "type": "audio",
+    "type": "tinhcam",
     "updatedAt": 1681508564218
   },
   {
