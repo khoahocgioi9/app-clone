@@ -21,6 +21,8 @@ import ChuaLanh from "./pages/Tags/ChuaLanh";
 import Audio from "./pages/Tags/Audio";
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
 const { Content, Header } = Layout;
 
@@ -52,42 +54,44 @@ function App({ onSearch, onHome })
   }
 
   return (
-    <BrowserRouter>
-      <>
-        <Layout
-          style={{
-            backgroundColor: "white",
-          }}
-        >
-          <Sidebar onHome={handleHomeClick} onSearchClick={handleSearchClick} />
-          <Layout style={{ minHeight: "100vh" }}>
-            <HeaderComponent />
-            <Content
-              className="m-5"
-              style={{ maxHeight: "calc(80vh - 64px)", overflowY: "auto" }}
-            >
-              <Routes>
-                <Route path="/" element={<Home />}></Route>
-                <Route path="/product/:id" element={<ProductDetail />} />
-                <Route path="/search" element={<SearchScreen />} />
-                <Route path="/top-chart" element={<TopChart />} />
-                <Route path="/top-artists" element={<TopArtists />} />
-                <Route path="/truyen" element={<Truyen />} />
-                <Route path="/tinh-cam" element={<TinhCam />} />
-                <Route path="/podcast" element={<Podcast />} />
-                <Route path="/tu-truyen" element={<TuTruyen />} />
-                <Route path="/chua-lanh" element={<ChuaLanh />} />
-                <Route path="/audio" element={<Audio />} />
-                <Route path="*" element={<ErrorPage />} />
+    <Provider store={store}>
+      <BrowserRouter>
+        <>
+          <Layout
+            style={{
+              backgroundColor: "white",
+            }}
+          >
+            <Sidebar onHome={handleHomeClick} onSearchClick={handleSearchClick} />
+            <Layout style={{ minHeight: "100vh" }}>
+              <HeaderComponent />
+              <Content
+                className="m-5"
+                style={{ maxHeight: "calc(80vh - 64px)", overflowY: "auto" }}
+              >
+                <Routes>
+                  <Route path="/" element={<Home />}></Route>
+                  <Route path="/product/:id" element={<ProductDetail />} />
+                  <Route path="/search" element={<SearchScreen />} />
+                  <Route path="/top-chart" element={<TopChart />} />
+                  <Route path="/top-artists" element={<TopArtists />} />
+                  <Route path="/truyen" element={<Truyen />} />
+                  <Route path="/tinh-cam" element={<TinhCam />} />
+                  <Route path="/podcast" element={<Podcast />} />
+                  <Route path="/tu-truyen" element={<TuTruyen />} />
+                  <Route path="/chua-lanh" element={<ChuaLanh />} />
+                  <Route path="/audio" element={<Audio />} />
+                  <Route path="*" element={<ErrorPage />} />
 
-              </Routes>
-            </Content>
+                </Routes>
+              </Content>
+            </Layout>
           </Layout>
-        </Layout>
 
-        <PlayerControllerComponent />
-      </>
-    </BrowserRouter>
+          <PlayerControllerComponent />
+        </>
+      </BrowserRouter>
+    </Provider>
   );
 }
 

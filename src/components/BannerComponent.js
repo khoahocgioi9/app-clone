@@ -2,17 +2,29 @@ import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import PlayCircleFilledWhiteIcon from "@mui/icons-material/PlayCircleFilledWhite";
 import { Card, Col, Image, List, Row, Typography } from "antd";
 import React from "react";
+import { useDispatch } from "react-redux";
+import { addAudio } from "../redux/reducers/audioReducer";
 
-const BannerComponent = ({ bannerItem, chapterItem, authorItem }) => {
-  if (!bannerItem) {
-    return <div>Cant find banner</div>;
+const BannerComponent = ({ bannerItem, chapterItem, authorItem }) =>
+{
+  // if (!bannerItem) {
+  //   return <div>Cant find banner</div>;
+  // }
+  // if (!chapterItem || !chapterItem.chaps) {
+  //   return <div>Cant find data chapter</div>;
+  // }
+  // if (!authorItem) {
+  //   return <div>Cant find data author</div>;
+  // }
+
+  const dispatch = useDispatch()
+
+  const handleAddAudioToStore = () =>
+  {
+    // console.log(bannerItem)
+    dispatch(addAudio(bannerItem))
   }
-  if (!chapterItem || !chapterItem.chaps) {
-    return <div>Cant find data chapter</div>;
-  }
-  if (!authorItem) {
-    return <div>Cant find data author</div>;
-  }
+
   return (
     <>
       <Card>
@@ -44,18 +56,23 @@ const BannerComponent = ({ bannerItem, chapterItem, authorItem }) => {
                   Category: <b>{bannerItem.type}</b>
                 </p>
                 <p>Description: {bannerItem.description}</p>
-                <div>
+                <button className="btn btn-sm btn-dark" onClick={handleAddAudioToStore} style={{
+                  width: 150,
+                  height: 42,
+                  display: 'flex', justifyContent: 'center', alignItems: 'center'
+                }}>
                   <PlayCircleFilledWhiteIcon
                     style={{
                       cursor: "pointer",
-                      fontSize: 60,
+                      fontSize: 24,
                       color: "#2B2730",
                       backgroundColor: "#FFFFFF",
                       borderRadius: " 100%",
+                      marginRight: 12
                     }}
                   />
-                  <b>Play</b>
-                </div>
+                  Play
+                </button>
               </div>
             </div>
           </Col>
