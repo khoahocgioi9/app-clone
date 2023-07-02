@@ -3,9 +3,12 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
 
-export default function RegisterForm() {
+export default function RegisterForm()
+{
+
   const [show, setShow] = useState(false);
-  const handleShow = (bShow) => {
+  const handleShow = (bShow) =>
+  {
     setShow(bShow);
   };
   return (
@@ -27,7 +30,8 @@ export default function RegisterForm() {
       </Button>
       <Modal
         show={show}
-        onHide={() => {
+        onHide={() =>
+        {
           handleShow(false);
         }}
       >
@@ -35,7 +39,7 @@ export default function RegisterForm() {
           <Modal.Title>Create new account</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form>
+          <Form >
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>What's your email?</Form.Label>
               <Form.Control type="text" placeholder="Enter your email" />
@@ -57,20 +61,13 @@ export default function RegisterForm() {
             </Form.Group>
 
             <div class="d-flex justify-content-end">
-              <Button variant="primary" type="submit" style={{color:"black"}}>
+              <Button variant="primary" type="submit" style={{ color: "black" }}>
                 Sign up
               </Button>
             </div>
           </Form>
         </Modal.Body>
-        {/* <Modal.Footer>
-          <Button variant="secondary" onClick={()=>{setIsShow(false)}}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={()=>{setIsShow(false)}}>
-            Save Changes
-          </Button>
-        </Modal.Footer> */}
+
       </Modal>
     </>
   );
