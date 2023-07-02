@@ -19,6 +19,8 @@ import Podcast from "./pages/Tags/Podcast";
 import TuTruyen from "./pages/Tags/TuTruyen";
 import ChuaLanh from "./pages/Tags/ChuaLanh";
 import Audio from "./pages/Tags/Audio";
+import LoginForm from "./components/LoginForm";
+import RegisterForm from "./components/RegisterForm";
 
 const { Content, Header } = Layout;
 
@@ -67,34 +69,8 @@ function App({ onSearch, onHome }) {
               </Space>
 
               <Space className="right">
-                <Button
-                  type="primary"
-                  style={{
-                    backgroundColor: "black",
-                    color: "white",
-                    width: 100,
-                    margin: 5,
-                  }}
-                  shape="round"
-                  size={"middle"}
-                  className="transition-transform duration-300 ease-in-out transform hover:scale-110 font-bold text-base h-10 text-white"
-                >
-                  Signup
-                </Button>
-                <Button
-                  type="primary"
-                  style={{
-                    backgroundColor: "white",
-                    color: "black",
-                    width: 100,
-                    margin: 5,
-                  }}
-                  shape="round"
-                  size={"large"}
-                  className="transition-transform duration-300 ease-in-out transform hover:scale-110 font-bold text-base h-10 bg-white text-neutral-600"
-                >
-                  Login
-                </Button>
+                <RegisterForm/>
+                <LoginForm/>
               </Space>
             </Header>
             <Content
