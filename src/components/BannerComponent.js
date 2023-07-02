@@ -41,7 +41,7 @@ const BannerComponent = ({ bannerItem, chapterItem, authorItem }) => {
                   Total chap: <b>{bannerItem.totalChaps}</b>
                 </p>
                 <p>
-                  Category: <b>Phát triển bản thân</b>
+                  Category: <b>{bannerItem.type}</b>
                 </p>
                 <p>Description: {bannerItem.description}</p>
                 <div>
